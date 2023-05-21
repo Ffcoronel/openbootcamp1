@@ -1,1 +1,29 @@
+public class Car {
+    private int numberOfDoors;  // Numeric variable to store the number of doors
+
+    public Car(int initialDoors) {
+        this.numberOfDoors = initialDoors;
+    }
+
+    public void addDoor() {
+        numberOfDoors++;  // Increase the number of doors by 1
+    }
+
+    public int getNumberOfDoors() {
+        return numberOfDoors;
+    }
+
+    public static void main(String[] args) {
+        Car myCar = new Car(3);  // Create a car object with 3 doors
+        myCar.addDoor();  // Add a door to the car
+        System.out.println("Number of doors: " + myCar.getNumberOfDoors());  // Display the number of doors
+    }
+}
+
+
+
+
+
+
+
 
